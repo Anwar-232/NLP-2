@@ -49,4 +49,4 @@ Model	Text Representation Method	Accuracy	Precision
 Multinomial Naive Bayes	CountVectorizer	97.4%	100%
 Multinomial Naive Bayes	TF-IDF	97.2%	100%
 Note: The 100% Precision score indicates that the model did not falsely classify any legitimate (Ham) message as Spam (False Positives), making it an extremely reliable model for message filtering applications.
-<img width="468" height="659" alt="image" src="https://github.com/user-attachments/assets/aee4a917-6df5-4b69-bbbd-4df51ceb9f98" />
+
