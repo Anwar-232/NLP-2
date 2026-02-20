@@ -1,5 +1,5 @@
-# NLP-2
-Spam SMS Detection Project
+# SMS-Spam-Classification-ML
+
  
 💡 Overview
 This project focuses on building a classification system using Natural Language Processing (NLP) techniques and Machine Learning algorithms to distinguish between legitimate (Ham) and unwanted (Spam) text messages.
