@@ -1,18 +1,17 @@
 # SMS-Spam-Classification-ML
 
- 
-💡 Overview
+  Overview
 This project focuses on building a classification system using Natural Language Processing (NLP) techniques and Machine Learning algorithms to distinguish between legitimate (Ham) and unwanted (Spam) text messages.
 This binary classification task is a critical step in message filtering systems designed to enhance user protection.
  
-💾 Dataset
+ Dataset
 •	File Name: Spam_SMS.csv
 •	Description: The dataset contains text messages labeled into two classes:
 o	0: Ham (Legitimate Message)
 o	1: Spam (Unwanted Message)
 •	Size: Initially contained 5,574 messages.
  
-⚙️ Methodology & Workflow
+ Methodology & Workflow
 The following stages were followed to prepare and train the models:
 1. Data Cleaning & Preparation
 •	The message class (Class) was converted from text labels to numeric values (0 and 1) using LabelEncoder.
@@ -43,7 +42,7 @@ Algorithms Used:
 •	Decision Tree
 •	Logistic Regression
  
-🏆 Results and Best Performance
+Results and Best Performance
 The Multinomial Naive Bayes (MNB) model demonstrated superior performance for this classification task, particularly when trained on the CountVectorizer features.
 Model	Text Representation Method	Accuracy	Precision
 Multinomial Naive Bayes	CountVectorizer	97.4%	100%
